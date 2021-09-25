@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(31, 29, 29);
+}
+
+.div{
+    background: #21e9f0;
+    margin: auto;
+    width: 80%;
+    position: relative;
+}
+
+header{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+nav{
+    outline: 3px solid black;
+    background: #fd9c03;
+}
+
+nav ul{
+    padding: 0px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+nav li:hover{
+    background: yellow;
+    color: blue;
+}
+
+h2{
+    text-align: center;
+}
+
+.p{
+    font-size: 80px;
+}
