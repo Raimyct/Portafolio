@@ -6,35 +6,53 @@
 }
 
 .main{
-    background: #e6e6e6;
+    background: #000721;
+    padding-top: 50px;
 }
 
+/*Inicio*/
 header{
+    padding: 110px;
     text-align: center;
-    padding: 75px;
+
 }
 
+/*letra inicio*/
 header h1{
-    font-size: 80px;
-    padding: 5px;
-    margin: 0px;
-    color: #0069d9;
+    font-size: 60px;
+    margin: 0px 0px 0px 20px;
+    color: #00d0c5;
+    display: inline-block;
+    text-align: left;
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     border: 1px solid black;
+    position: relative;
+    bottom: 100px;
+}
+
+header.nombre{
+    display: inline;
+    position: relative;
+    right: 0px;
+
 }
 
 /*navegación entera*/
 nav{
-    background: #1a1a1a;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #000721;
+    outline: 2px solid #00d0c5;
 }
 
 nav ul{
-    padding: 0px;
+    padding: 1px;
     text-align: right;
 }
 
@@ -43,19 +61,30 @@ nav li{
     padding: 10px;
     cursor: pointer;
     font-size: 25px;
-    color:#e6e6e6;
-}
-
-nav li:hover{
-    color:#0069d9;
+    color: #e6e6e6;
     font-weight: bold;
 }
 
+nav li:hover{
+    color: #2febd2;
+    font-weight: bold;
+}
+
+/*cuerpo*/
 h2{
     text-align: center;
     font-size: 50px;
+    color: #00d0c5;
+}
+i{
+    color: white;
+    font-size: 65px;
 }
 
-.p{
-    font-size: 70px;
+i:hover{
+    color: #00d0c5;
+}
+p{
+    font-size: 10px;
+    color: white;
 }
