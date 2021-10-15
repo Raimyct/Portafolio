@@ -11,44 +11,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/136864a4d3.js" crossorigin="anonymous"></script>
+    <script src="portafolio.js"></script>
     <title>Raimy Conejo - Portafolio</title>
 </head>
 <body>
 
 <main class="main">
 
-    <header>
-       
-
+    <header class="inicio" id="inicio">
             <img src="foto.jpg" alt="s">
             <h1>¡Hola! <br> Soy Raimy <br>Conejo, <br>Frontend <br>Developer.</h1>
-        
-
     </header>
 
     <div>
-    <nav>
-        <ul>
-            <li><a>Acerca de mí</a></li>
-            <li><a>Habilidades</a></li>
-            <li><a>Proyectos</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#Sobre">Sobre mí</a></li>
+                <li><a href="#Proyectos">Proyectos</a></li>
+            </ul>
+        </nav>
     </div>
 
-    <h2>Acerca de mí</h2>
+    <div class="sobre1">
+        <h2 id="Sobre">Sobre mí</h2>
 
-        <p>Ecuatoriano</p>
+        <div class="infosobre">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga quas pariatur enim vero magnam perspiciatis placeat fugiat, quidem magni impedit iure ducimus quae! In, at vitae. Sint, atque corporis?</p>
 
-    <h2>Habilidades</h2>
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-js-square"></i>
-    <h2>Proyectos</h2>
+            <h3>Habilidades</h3>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js-square"></i>
+        </div>
+    </div>
+
+    <div class="proyecto">
+        <h2 id="Proyectos">Proyectos</h2>
+    </div>
 
     <footer>
         <i class="fab fa-linkedin"></i>
-        <i class="fab fa-github"></i>
+        <a href="https://github.com/Raimyct?tab=repositories"><i class="fab fa-github"></i></a>
     </footer>
 
 </main>

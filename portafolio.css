@@ -1,3 +1,7 @@
+html{
+scroll-behavior: smooth;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,17 +11,15 @@
 
 .main{
     background: #000721;
-    padding-top: 50px;
 }
 
 /*Inicio*/
 header{
     padding: 110px;
     text-align: center;
-
 }
 
-/*letra inicio*/
+/*inicio*/
 header h1{
     font-size: 60px;
     margin: 0px 0px 0px 20px;
@@ -35,11 +37,8 @@ img{
     bottom: 100px;
 }
 
-header.nombre{
-    display: inline;
-    position: relative;
-    right: 0px;
-
+.inicio{
+    height: 610px;
 }
 
 /*navegación entera*/
@@ -49,6 +48,7 @@ nav{
     top: 0px;
     background-color: #000721;
     outline: 2px solid #00d0c5;
+    z-index: 1;
 }
 
 nav ul{
@@ -61,30 +61,66 @@ nav li{
     padding: 10px;
     cursor: pointer;
     font-size: 25px;
-    color: #e6e6e6;
+    color: white;
     font-weight: bold;
 }
 
 nav li:hover{
-    color: #2febd2;
+    color: #00d0c5;
     font-weight: bold;
 }
 
 /*cuerpo*/
 h2{
-    text-align: center;
-    font-size: 50px;
     color: #00d0c5;
+    text-align: center;
+    font-size: 60px;
 }
+
+h3{
+    color: #00d0c5;
+    font-size: 30px;
+}
+
+/*parrafo*/
+p{
+    font-size: 20px;
+    color: white;
+}
+
+/*sobre mi*/
+.sobre1{
+    border: 1px solid black;
+    height: 610px;
+}
+
+.infosobre{
+    line-height: 30px;
+    top: 30px;
+    width: 40%;
+    position: relative;
+    left: 50%;
+}
+
+.infosobre i{
+    margin: 10px 20px;
+}
+
+/*icono*/
 i{
     color: white;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 i:hover{
     color: #00d0c5;
 }
-p{
-    font-size: 10px;
-    color: white;
+
+.proyecto{
+    height: 610px;
 }
+
+footer{
+    text-align: center;
+}
+
