@@ -1,11 +1,17 @@
 /*celular s5*/
 @media screen and (max-width: 360px){
-    body{
-        background: gray;
+    header h1{
+        font-size: 70px;
     }
 
-    h1{
-        font-size:40px;
+    /*navegacion*/
+    /*
+    nav{
+        height: 745px;
+    }*/
+
+    nav a{
+        font-size: 30px;
     }
 
     .p{
@@ -19,8 +25,11 @@
         margin: 0px;
     }
 
+    nav{
+        position: fixe;
+    }
+
     nav li{
         font-size: 15px;
         display: block;
     }
-

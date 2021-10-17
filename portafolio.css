@@ -15,16 +15,17 @@ scroll-behavior: smooth;
 
 /*Inicio*/
 header{
-    padding: 110px;
+    padding: 70px;
     text-align: center;
 }
 
 /*inicio*/
 header h1{
-    font-size: 60px;
+    font-size: 70px;
     margin: 0px 0px 0px 20px;
     color: #00d0c5;
     display: inline-block;
+    padding-top: 40px;
     text-align: left;
 }
 
@@ -58,16 +59,22 @@ nav ul{
 
 nav li{
     display: inline-block;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 25px;
-    color: white;
+    padding: 5px 20px;
+    font-size: 19px;
     font-weight: bold;
 }
 
-nav li:hover{
+
+/*cambiar color de letras de menu de navegacion*/
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+/*cambiar color de letras de menu de navegacion*/
+
+.a:hover{
     color: #00d0c5;
-    font-weight: bold;
 }
 
 /*cuerpo*/
@@ -94,6 +101,10 @@ p{
     height: 610px;
 }
 
+.sobre-mi{
+    padding-top: 50px;
+}
+
 .infosobre{
     line-height: 30px;
     top: 30px;
@@ -116,11 +127,18 @@ i:hover{
     color: #00d0c5;
 }
 
-.proyecto{
+/*proyectos*/
+.cuadro-proyecto{
     height: 610px;
 }
 
-footer{
+.proyectos{
+    padding-top: 50px;
+}
+
+/*footer*/
+footer i{
     text-align: center;
+    font-size: 30px;
 }
 
