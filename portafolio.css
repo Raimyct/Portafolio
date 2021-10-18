@@ -15,17 +15,22 @@ scroll-behavior: smooth;
 
 /*Inicio*/
 header{
-    padding: 110px;
     text-align: center;
 }
 
 /*inicio*/
 header h1{
-    font-size: 60px;
-    margin: 0px 0px 0px 20px;
-    color: #00d0c5;
     display: inline-block;
+    margin: 0;
+    font-size: 60px;
+    color: #00d0c5;
     text-align: left;
+}
+
+/*caja contenedora de nombre principal e imagen*/
+.nombre_principal{
+    position: relative;
+    top: 150px;
 }
 
 img{
@@ -34,7 +39,7 @@ img{
     border-radius: 50%;
     border: 1px solid black;
     position: relative;
-    bottom: 100px;
+    bottom: 160px;
 }
 
 .inicio{
@@ -47,7 +52,7 @@ nav{
     width: 100%;
     top: 0px;
     background-color: #000721;
-    outline: 2px solid #00d0c5;
+    border-bottom: 2px solid #00d0c5;
     z-index: 1;
 }
 
@@ -61,11 +66,15 @@ nav li{
     padding: 10px;
     cursor: pointer;
     font-size: 25px;
-    color: white;
     font-weight: bold;
 }
 
-nav li:hover{
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
     color: #00d0c5;
     font-weight: bold;
 }
@@ -86,15 +95,22 @@ h3{
 p{
     font-size: 20px;
     color: white;
+    text-align: justify;
 }
 
 /*sobre mi*/
-.sobre1{
+.caja_sobre{
     border: 1px solid black;
     height: 610px;
 }
 
-.infosobre{
+.titulo_sobre{
+    padding-top: 50px;
+}
+
+/*info seccion "sobre mi"*/
+.info_sobre{
+    display: inline-block;
     line-height: 30px;
     top: 30px;
     width: 40%;
@@ -102,7 +118,7 @@ p{
     left: 50%;
 }
 
-.infosobre i{
+.info_sobre i{
     margin: 10px 20px;
 }
 
@@ -116,10 +132,16 @@ i:hover{
     color: #00d0c5;
 }
 
-.proyecto{
+/*proyectos*/
+.caja_proyectos{
     height: 610px;
 }
 
+.titulo_proyectos{
+    padding-top: 50px;
+}
+
+/*footer*/
 footer{
     text-align: center;
 }

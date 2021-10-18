@@ -1,26 +1,86 @@
 /*celular s5*/
 @media screen and (max-width: 360px){
-    body{
-        background: gray;
-    }
 
-    h1{
-        font-size:40px;
-    }
-
-    .p{
-        font-size: 15px;
-        padding: 5px;
-        text-align: justify;
-    }
-
-    .div{
+    /*navegacion oculta*/
+    nav{
+        display: none;
+        position: fixed;
         width: 100%;
-        margin: 0px;
+        height: 600px;
+        top: 0px;
+        background-color: #000721;
+        z-index: 1;
     }
 
     nav li{
-        font-size: 15px;
         display: block;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
     }
 
+    nav a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav li:hover{
+        color: #00d0c5;
+        font-weight: bold;
+    }
+
+/*titulo inicial*/
+    .inicio{
+        height: 640px;
+        padding: 0px;
+    }
+
+    header h1{
+        font-size:40px;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .nombre_principal{
+        position: relative;
+        top: 200px;
+    }
+
+    img{
+        display: none;
+    }
+
+    /*seccion "sobre mi"*/
+    .caja_sobre{
+        height: 640px;
+    }
+
+    .titulo_sobre{
+        padding-top: 0px;
+    }
+
+    .info_sobre{
+        display: inline-block;
+        line-height: 30px;
+        top: 30px;
+        width: 100%;
+        position: relative;
+        left: 0;
+        padding: 10px;
+    }
+
+    h3{
+        color: #00d0c5;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /*seccion "proyectos"*/
+    .caja_proyectos{
+        height: 640px;
+    }
+
+    .titulo_proyectos{
+        padding-top: 0px;
+    }
