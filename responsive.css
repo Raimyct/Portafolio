@@ -35,52 +35,57 @@
         padding: 0px;
     }
 
-    header h1{
+    .inicio__img{
+        display: none;
+        position: relative;
+        top: 0px;
+    }
+
+    .inicio__titulo{
         font-size:40px;
         margin: 0;
-        text-align: center;
-
-    }
-
-    .nombre_principal{
         position: relative;
-        top: 200px;
-    }
-
-    img{
-        display: none;
+        top: 180px;
+        text-align: center;
     }
 
     /*seccion "sobre mi"*/
-    .caja_sobre{
+    .sobre{
         height: 640px;
     }
 
-    .titulo_sobre{
+    .sobre__titulo{
         padding-top: 0px;
     }
 
-    .info_sobre{
+    .sobre__info{
         display: inline-block;
         line-height: 30px;
-        top: 30px;
+        top: 8  0px;
         width: 100%;
         position: relative;
         left: 0;
         padding: 10px;
     }
 
-    h3{
+    .sobre__subtitulo{
         color: #00d0c5;
         font-size: 30px;
         text-align: center;
     }
 
+    .sobre__img{
+        height: 200px;
+        left: 110px;
+        position: relative;
+        top: 20px;
+    }
+
     /*seccion "proyectos"*/
-    .caja_proyectos{
+    .proyectos{
         height: 640px;
     }
 
-    .titulo_proyectos{
+    .proyectos__titulo{
         padding-top: 0px;
     }
