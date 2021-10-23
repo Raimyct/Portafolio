@@ -23,11 +23,6 @@
         color: white;
         text-decoration: none;
     }
-    
-    nav li:hover{
-        color: #00d0c5;
-        font-weight: bold;
-    }
 
 /*titulo inicial*/
     .inicio{
@@ -42,7 +37,8 @@
     }
 
     .inicio__titulo{
-        font-size:40px;
+        font-size: 40px;
+        left: 0px;
         margin: 0;
         position: relative;
         top: 180px;
@@ -82,10 +78,19 @@
     }
 
     /*seccion "proyectos"*/
-    .proyectos{
-        height: 640px;
-    }
-
+    
     .proyectos__titulo{
         padding-top: 0px;
     }
+
+    .proyectos__fotos{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+    
+    .proyectos__foto{
+        width: 100%;
+    }
+}
